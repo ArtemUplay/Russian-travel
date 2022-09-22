@@ -1,0 +1,14 @@
+.cover {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1280px;
+  min-height: 740px;
+  padding: 0px 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
