@@ -2,3 +2,16 @@
   box-sizing: border-box;
   padding: 92px 0px;
 }
+
+@media screen and (max-width: 870px) {
+  .places {
+    padding: 88px 0px;
+  }
+}
+
+
+@media screen and (max-width: 685px) {
+  .places {
+    padding: 64px 0px;
+  }
+}

@@ -3,3 +3,16 @@
   grid-column: 2/3;
   align-self: end;
 }
+
+@media screen and (max-width: 685px) {
+  .place__website {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .place__website {
+    padding: 0px 16px;
+  }
+}

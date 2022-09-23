@@ -1,4 +1,6 @@
 .root {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-family: "Inter", "Arial", sans-serif;
-  background-color: #2A2C2F;  
+  background-color: #2A2C2F;
 }

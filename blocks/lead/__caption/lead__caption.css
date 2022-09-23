@@ -5,3 +5,15 @@
   color: #fff;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    margin: 0px 0px 0px 24px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .lead__caption {
+    margin: 0px 0px 0px 16px;
+  }
+}

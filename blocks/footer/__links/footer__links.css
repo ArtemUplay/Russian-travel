@@ -1,0 +1,12 @@
+.footer__links {
+  /* Убираем отступ между ссылками */
+  font-size: 0;
+}
+
+@media screen and (max-width: 580px) {
+  .footer__links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+  }
+}
