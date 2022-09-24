@@ -15,10 +15,10 @@
   <div class="page">
     <header class="header">
       <img src="images/header-logo.svg" alt="Логотип" class="header__logo">
-      <nav class="header__lang-links">
+      <div class="header__lang-links">
         <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
         <a href="#" class="header__lang-link">En</a>
-      </nav>
+      </div>
     </header>
     <main class="content">
       <section class="lead">
@@ -40,16 +40,16 @@
           мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной
           стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
-          <li class="intro__list-item">Часовых поясов <span class="intro__list_regular">11</span></li>
-          <li class="intro__list-item">Объектов природного наследия ЮНЕСКО <span class="intro__list_regular">12</span>
+          <li class="intro__list-item">Часовых поясов <span class="intro__list-regular">11</span></li>
+          <li class="intro__list-item">Объектов природного наследия ЮНЕСКО <span class="intro__list-regular">12</span>
           </li>
-          <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span class="intro__list_regular">16</span>
+          <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span class="intro__list-regular">16</span>
           </li>
-          <li class="intro__list-item">Природных заповедников <span class="intro__list_regular">105</span></li>
-          <li class="intro__list-item">Аэропортов <span class="intro__list_regular">241</span></li>
+          <li class="intro__list-item">Природных заповедников <span class="intro__list-regular">105</span></li>
+          <li class="intro__list-item">Аэропортов <span class="intro__list-regular">241</span></li>
         </ul>
       </section>
-      <div class="photo-grid">
+      <section class="photo-grid">
         <img src="images/view-of-train.jpg" alt="Вид из поезда" class="photo-grid__item">
         <img src="images/sky.jpg" alt="Небо" class="photo-grid__item">
         <img src="images/field-and-dog.jpg" alt="Поле и собака" class="photo-grid__item">
@@ -62,9 +62,9 @@
         <img src="images/field-and-mountain.jpg" alt="Поле и гора" class="photo-grid__item">
         <img src="images/beach-and-mountain.jpg" alt="Пляж и гора" class="photo-grid__item">
         <img src="images/foggy-green-mountains.jpg" alt="Туманные зелёные горы" class="photo-grid__item">
-      </div>
+      </section>
       <section class="places">
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <img src="images/kosa.jpg" alt="Куршская коса" class="place__image">
           <div class="place__website">
@@ -81,8 +81,8 @@
               и
               запах стального, прохладного моря.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
           <img src="images/kolsky.jpg" alt="Кольский" class="place__image">
           <div class="place__website">
@@ -102,8 +102,8 @@
               накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
               в Мурманск.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
           <img src="images/altay.jpg" alt="Алтай" class="place__image">
           <div class="place__website">
@@ -120,8 +120,8 @@
               всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на
               равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <img src="images/baykal.jpg" alt="Зимний Байкал" class="place__image">
           <div class="place__website">
@@ -138,8 +138,8 @@
               к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале
               «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Карелия</h2>
           <img src="images/karelia.jpg" alt="Карелия" class="place__image">
           <div class="place__website">
@@ -152,16 +152,16 @@
             полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный.
             В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья
             в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
-        </div>
+        </article>
       </section>
-      <section class="cover">
+      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover">
         <div class="cover__background">
           <h2 class="cover__title">До Байкала «на собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
             электричках.</p>
-          <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__overlay"></a>
+          <div class="cover__overlay"></div>
         </div>
-      </section>
+      </a>
     </main>
     <footer class="footer">
       <nav class="footer__links">
