@@ -18,7 +18,7 @@
   .footer {
     padding: 64px 0px 24px 16px;
     flex-direction: column;
-    row-gap: 34px;
+    row-gap: 46px;
     align-items: flex-start;
   }
 }
